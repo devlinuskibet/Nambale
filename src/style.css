@@ -208,6 +208,19 @@ header {
   color: var(--primary-maroon);
 }
 
+/* Fix button in navbar */
+.nav-links a.btn {
+  color: var(--pure-white);
+}
+
+.nav-links a.btn:hover {
+  color: var(--pure-white);
+}
+
+.nav-links a.btn::after {
+  display: none;
+}
+
 /* Main Content Area */
 main {
   flex: 1;
