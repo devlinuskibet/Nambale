@@ -21,19 +21,19 @@ export default function renderHome() {
 
       <div class="grid grid-cols-4" style="margin-bottom: 4rem;">
         <div class="glass-card text-center" style="background: var(--pure-white);">
-          <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;">2019</div>
+          <div class="counter" data-target="2019" style="font-size: 3rem; color: var(--accent-red); font-weight: 700;">0</div>
           <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 0.5rem; font-size: 0.9rem;">Founding Year</p>
         </div>
         <div class="glass-card text-center" style="background: var(--pure-white);">
-          <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;">1/29</div>
-          <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 0.5rem; font-size: 0.9rem;">Position in Sub-County 2025</p>
+          <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;"><span class="counter" data-target="5">0</span>/29</div>
+          <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 0.5rem; font-size: 0.9rem;">Position in Sub-County</p>
         </div>
         <div class="glass-card text-center" style="background: var(--pure-white);">
-          <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;">1+</div>
+          <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;"><span class="counter" data-target="30">0</span>+</div>
           <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 0.5rem; font-size: 0.9rem;">Students per stream</p>
         </div>
         <div class="glass-card text-center" style="background: var(--pure-white);">
-          <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;">1+</div>
+          <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;"><span class="counter" data-target="185">0</span>+</div>
           <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 0.5rem; font-size: 0.9rem;">Parents</p>
         </div>
       </div>

@@ -18,6 +18,46 @@ const routes = {
   'participate': renderParticipate,
 };
 
+function initCounters() {
+  const counters = document.querySelectorAll('.counter');
+  if (counters.length === 0) return;
+
+  const animateCounter = (counter, duration) => {
+    return new Promise(resolve => {
+      counter.innerText = '0';
+      const target = +counter.getAttribute('data-target');
+      const startTime = performance.now();
+
+      const updateCount = (currentTime) => {
+        const elapsedTime = currentTime - startTime;
+        const progress = Math.min(elapsedTime / duration, 1);
+        
+        const easeOutQuad = t => t * (2 - t);
+        
+        const currentVal = Math.floor(target * easeOutQuad(progress));
+        counter.innerText = currentVal;
+
+        if (progress < 1) {
+          requestAnimationFrame(updateCount);
+        } else {
+          counter.innerText = target;
+          resolve();
+        }
+      };
+
+      requestAnimationFrame(updateCount);
+    });
+  };
+
+  const runSequence = async () => {
+    for (let i = 0; i < counters.length; i++) {
+      await animateCounter(counters[i], 600); 
+    }
+  };
+
+  runSequence();
+}
+
 function handleRoute() {
   const hash = window.location.hash.replace('#', '') || 'home';
   const renderFn = routes[hash] || routes['home'];
@@ -36,6 +76,11 @@ function handleRoute() {
 
     // Render new content
     appContent.innerHTML = renderFn();
+
+    // Init counters if on home page
+    if (hash === 'home' || hash === '') {
+      initCounters();
+    }
 
     // Scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
