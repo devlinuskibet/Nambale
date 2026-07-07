@@ -2,13 +2,13 @@ export default function renderParticipate() {
   return `
     <section class="container py-4 animate-fade-in">
       <div class="text-center mb-4" style="margin-bottom: 3rem;">
-        <h1>Participate & Partner With Us</h1>
+        <h1>Get Involved & Partner With Us</h1>
         <p style="font-size: 1.25rem; color: var(--dark-charcoal); max-width: 800px; margin: 0 auto;">
           We believe in the power of community. Join hands with us to nurture tomorrow's leaders.
         </p>
       </div>
 
-      <div class="flex-wrap" style="margin-bottom: 4rem;">
+      <div class="flex-wrap" style="margin-bottom: 4rem; align-items: stretch;">
         <div class="glass-card" style="flex: 1; min-width: 300px; background: var(--pure-white);">
           <h2 style="color: var(--primary-maroon); margin-bottom: 1.5rem;">Partnership Benefits</h2>
           <ul style="list-style: none; padding: 0;">
@@ -29,7 +29,7 @@ export default function renderParticipate() {
 
         <div class="glass-card" style="flex: 1; min-width: 300px; background: var(--pure-white);">
           <h2 style="color: var(--accent-red); margin-bottom: 1.5rem;">Volunteer Program Areas</h2>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="grid grid-cols-2">
             <div style="background: var(--soft-gray); padding: 1rem; border-radius: 8px; text-align: center;">
               <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌱</div>
               <div style="font-weight: 600;">Environment</div>
@@ -55,12 +55,22 @@ export default function renderParticipate() {
         <div class="flex-wrap" style="align-items: flex-start;">
           <div style="flex: 1; min-width: 250px;">
             <div style="margin-bottom: 1.5rem;">
-              <h3 style="color: var(--soft-gray); font-size: 1.1rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Address</h3>
-              <p style="font-size: 1.2rem; font-weight: 500;">📍 Okatekok Stage, Nambale Town<br>off Busia-Bungoma Road</p>
+              <h3 style="color: var(--soft-gray); font-size: 1.1rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Visit Us</h3>
+              <p style="font-size: 1.1rem; font-weight: 500;">📍 Okatekok Stage, Nambale Town<br>off Busia-Bungoma Road</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h3 style="color: var(--soft-gray); font-size: 1.1rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Postal Address</h3>
+              <p style="font-size: 1.1rem; font-weight: 500;">📮 P. O Box 2 - 50409<br>Nambale – Kenya</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h3 style="color: var(--soft-gray); font-size: 1.1rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Get in Touch</h3>
+              <p style="font-size: 1.1rem; font-weight: 500; margin-bottom: 0.2rem;">📞 +254 728 372 706</p>
+              <p style="font-size: 1.1rem; font-weight: 500;">✉️ info@shinershighschool.sc.ke</p>
             </div>
             <div>
-              <h3 style="color: var(--soft-gray); font-size: 1.1rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Phone</h3>
-              <p style="font-size: 1.2rem; font-weight: 500;">📞 +254 728 372 706</p>
+              <h3 style="color: var(--soft-gray); font-size: 1.1rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Operating Hours</h3>
+              <p style="font-size: 1.1rem; font-weight: 500; margin-bottom: 0.2rem;">🕒 Mon to Fri: 8:00am - 5:00pm</p>
+              <p style="font-size: 1.1rem; font-weight: 500;">🕒 Sat: 8:00am - 12:00noon</p>
             </div>
           </div>
           
@@ -68,7 +78,7 @@ export default function renderParticipate() {
             <form style="display: flex; flex-direction: column; gap: 1rem;" onsubmit="event.preventDefault(); alert('Thank you for reaching out! We will get back to you soon.');">
               <input type="text" placeholder="Your Name" required style="padding: 1rem; border-radius: 8px; border: none; font-family: inherit; font-size: 1rem;">
               <input type="email" placeholder="Your Email" required style="padding: 1rem; border-radius: 8px; border: none; font-family: inherit; font-size: 1rem;">
-              <textarea placeholder="Your Message" rows="4" required style="padding: 1rem; border-radius: 8px; border: none; font-family: inherit; font-size: 1rem; resize: vertical;"></textarea>
+              <textarea placeholder="Your Message" rows="5" required style="padding: 1rem; border-radius: 8px; border: none; font-family: inherit; font-size: 1rem; resize: vertical;"></textarea>
               <button type="submit" class="btn btn-primary" style="align-self: flex-start;">Send Message</button>
             </form>
           </div>
