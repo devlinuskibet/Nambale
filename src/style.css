@@ -152,6 +152,46 @@ header {
   box-shadow: var(--shadow-sm);
 }
 
+/* Top Bar */
+.top-bar {
+  background-color: #1a202c;
+  color: var(--pure-white);
+  padding: 0.5rem 1.5rem;
+  font-size: 0.85rem;
+}
+
+.top-bar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.top-bar-left {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-info {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  opacity: 0.9;
+}
+
+.top-bar-right.social-links {
+  gap: 1rem;
+}
+
+.top-bar-right.social-links a {
+  font-size: 1rem;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
