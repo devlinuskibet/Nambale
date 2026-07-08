@@ -54,12 +54,12 @@ export default function renderParticipate() {
         <h2 style="color: var(--accent-red); font-size: 2rem; font-weight: 800; text-transform: uppercase; margin-bottom: 3rem;">Support Our Mission</h2>
         
         <div class="grid grid-cols-2" style="align-items: center; gap: 3rem; background: var(--pure-white); padding: 2rem; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
-          <!-- Placeholder for 4-image collage -->
+          <!-- 4-image collage -->
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
-            <div style="background: #e9ecef; height: 150px; border-radius: 8px 0 0 0; display: flex; align-items: center; justify-content: center; color: #adb5bd; font-weight: 600; font-size: 0.8rem;">[Image 1]</div>
-            <div style="background: #e9ecef; height: 150px; border-radius: 0 8px 0 0; display: flex; align-items: center; justify-content: center; color: #adb5bd; font-weight: 600; font-size: 0.8rem;">[Image 2]</div>
-            <div style="background: #e9ecef; height: 150px; border-radius: 0 0 0 8px; display: flex; align-items: center; justify-content: center; color: #adb5bd; font-weight: 600; font-size: 0.8rem;">[Image 3]</div>
-            <div style="background: #e9ecef; height: 150px; border-radius: 0 0 8px 0; display: flex; align-items: center; justify-content: center; color: #adb5bd; font-weight: 600; font-size: 0.8rem;">[Image 4]</div>
+            <img src="/images/participate/participate (3).webp" style="width: 100%; height: 150px; object-fit: cover; border-radius: 8px 0 0 0;" alt="Support Mission 1" />
+            <img src="/images/participate/participate (5).webp" style="width: 100%; height: 150px; object-fit: cover; border-radius: 0 8px 0 0;" alt="Support Mission 2" />
+            <img src="/images/participate/participate (6).webp" style="width: 100%; height: 150px; object-fit: cover; border-radius: 0 0 0 8px;" alt="Support Mission 3" />
+            <img src="/images/participate/participate (7).webp" style="width: 100%; height: 150px; object-fit: cover; border-radius: 0 0 8px 0;" alt="Support Mission 4" />
           </div>
           
           <div style="text-align: left;">
