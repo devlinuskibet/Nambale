@@ -5,6 +5,8 @@ import renderHome from './pages/Home.js';
 import renderAcademics from './pages/Academics.js';
 import renderAdmissionFees from './pages/AdmissionFees.js';
 import renderParticipate from './pages/Participate.js';
+import renderContact from './pages/Contact.js';
+import renderGallery from './pages/Gallery.js';
 
 const appContent = document.getElementById('app-content');
 const navLinks = document.querySelectorAll('.nav-link');
@@ -16,6 +18,8 @@ const routes = {
   'academics': renderAcademics,
   'admission_fees': renderAdmissionFees,
   'participate': renderParticipate,
+  'contact': renderContact,
+  'gallery': renderGallery,
 };
 
 let heroSliderInterval;
