@@ -130,13 +130,23 @@ export default function renderHome() {
         </div>
       </div>
 
-      <div class="flex-wrap" style="margin-bottom: 4rem; align-items: stretch;">
-        <div class="glass-card" style="flex: 1; min-width: 300px; background: var(--primary-maroon); color: var(--pure-white);">
+      <div class="grid grid-cols-2" style="margin-bottom: 4rem; align-items: stretch;">
+        <div class="glass-card" style="background: var(--primary-maroon); color: var(--pure-white); display: flex; flex-direction: column; justify-content: center;">
           <h2 style="color: var(--pure-white);">Philosophy</h2>
           <p style="font-size: 1.05rem; line-height: 1.6;">We believe every child is uniquely gifted by God. Our mission is to nurture well rounded learners who grow in knowledge, character and faith, equiping them to use their God-given talents to positively impact society.</p>
         </div>
-        
-        <div class="glass-card" style="flex: 2; min-width: 300px; background: linear-gradient(135deg, var(--pure-white), var(--soft-gray));">
+        <div class="glass-card text-center" style="background: var(--pure-white); min-height: 250px; display: flex; align-items: center; justify-content: center; border: 2px dashed #ccc; padding: 0;">
+          <img src="" alt="" style="width: 100%; height: 100%; object-fit: cover; display: none;" class="section-img" />
+          <p style="color: #666;" class="placeholder-text">[ Image Placeholder for Philosophy ]</p>
+        </div>
+      </div>
+      
+      <div class="grid grid-cols-2" style="margin-bottom: 4rem; align-items: stretch;">
+        <div class="glass-card text-center" style="background: var(--pure-white); min-height: 250px; display: flex; align-items: center; justify-content: center; border: 2px dashed #ccc; padding: 0;">
+          <img src="" alt="" style="width: 100%; height: 100%; object-fit: cover; display: none;" class="section-img" />
+          <p style="color: #666;" class="placeholder-text">[ Image Placeholder for Future Vision ]</p>
+        </div>
+        <div class="glass-card" style="background: linear-gradient(135deg, var(--pure-white), var(--soft-gray)); display: flex; flex-direction: column; justify-content: center;">
           <h2 style="color: var(--primary-maroon);">Our Future Vision</h2>
           <p style="font-size: 1.05rem; line-height: 1.6;">By end of 2026, Nambale Shiners High School plans to establish a permanent, modern campus on acquired land in Nambale. The new facility will include classrooms, separate dormitories for boys and girls, dining and assembly halls, computer and science labs, a library, sports fields, and green landscaped spaces to adjust and adapt in their day to day lives as a result of global epidemic COVID-19.</p>
         </div>
