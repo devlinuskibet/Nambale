@@ -37,7 +37,7 @@ export default function renderGallery() {
         <h2 style="color: var(--accent-red); font-size: 2.5rem; font-weight: 800; text-align: center; margin-bottom: 1rem;">Video Gallery</h2>
         <p style="color: #666; font-size: 1.1rem; text-align: center; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">Watch highlights, student testimonials, and special events happening at our school.</p>
         
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: stretch;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; align-items: stretch;">
           
           <!-- Video 1 -->
           <div style="background: var(--pure-white); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
@@ -58,6 +58,17 @@ export default function renderGallery() {
             <div style="padding: 1.5rem;">
               <h3 style="color: var(--dark-charcoal); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Student Life & Highlights</h3>
               <p style="color: #777; font-size: 0.95rem;">Watch our students excel in their co-curricular activities, academics, and school events.</p>
+            </div>
+          </div>
+          
+          <!-- Video 3 -->
+          <div style="background: var(--pure-white); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
+            <div style="background: #000; height: 350px; position: relative; display: flex; align-items: center; justify-content: center;">
+              <video src="/images/gallery/VID-20251120-WA0005.mp4" controls preload="metadata" style="width: 100%; height: 100%; object-fit: contain;"></video>
+            </div>
+            <div style="padding: 1.5rem;">
+              <h3 style="color: var(--dark-charcoal); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Campus Events</h3>
+              <p style="color: #777; font-size: 0.95rem;">A glimpse into the ceremonies, activities, and proud moments of Nambale Shiners.</p>
             </div>
           </div>
           
