@@ -96,7 +96,7 @@ export default function renderParticipate() {
           
           <div style="text-align: center; background: #f8f9fa; padding: 3rem; border-radius: 16px; border: 1px dashed #adb5bd;">
             <h3 style="color: #28a745; font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">Download the form below to join.</h3>
-            <a href="#" onclick="event.preventDefault(); alert('Volunteer form will be available shortly.');" style="background: #6c757d; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; font-weight: 600; font-size: 1rem; padding: 1rem 2rem; border-radius: 4px; border: none; cursor: pointer; text-decoration: none; width: 100%; max-width: 350px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: background 0.3s ease;">
+            <a href="/Shiners-Secondary-School-Volunteer-Application-Form.pdf" download="Shiners-Secondary-School-Volunteer-Application-Form.pdf" style="background: #6c757d; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; font-weight: 600; font-size: 1rem; padding: 1rem 2rem; border-radius: 4px; border: none; cursor: pointer; text-decoration: none; width: 100%; max-width: 350px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: background 0.3s ease;">
               <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
               Shiners High School Volunteer Form
             </a>
