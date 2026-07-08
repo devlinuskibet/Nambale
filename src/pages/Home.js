@@ -55,7 +55,7 @@ export default function renderHome() {
         </div>
       </div>
       
-      <div class="glass-card" style="margin-bottom: 4rem; background: linear-gradient(rgba(45,49,52,0.85), rgba(45,49,52,0.85)), url('/images/home/institutional satements.webp'); background-size: cover; background-position: center; color: var(--pure-white);">
+      <div class="glass-card" style="margin-bottom: 4rem; background: linear-gradient(rgba(45,49,52,0.6), rgba(45,49,52,0.6)), url('/images/home/institutional satements.webp'); background-size: cover; background-position: center; color: var(--pure-white);">
         <h2 style="color: var(--pure-white); text-align: center; margin-bottom: 2rem;">Institutional Statements</h2>
         <div class="grid grid-cols-3 text-center">
           <div>
