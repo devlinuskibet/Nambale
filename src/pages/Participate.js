@@ -155,11 +155,11 @@ export default function renderParticipate() {
             </p>
             
             <form onsubmit="event.preventDefault(); alert('Message sent successfully!');" style="display: flex; flex-direction: column; gap: 1rem;">
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
                 <input type="text" placeholder="Your Name*" required style="padding: 0.8rem; border-radius: 4px; border: 1px solid #ddd; font-family: inherit; font-size: 0.9rem; outline: none;">
                 <input type="email" placeholder="Your Email*" required style="padding: 0.8rem; border-radius: 4px; border: 1px solid #ddd; font-family: inherit; font-size: 0.9rem; outline: none;">
               </div>
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
                 <input type="tel" placeholder="Your Phone*" required style="padding: 0.8rem; border-radius: 4px; border: 1px solid #ddd; font-family: inherit; font-size: 0.9rem; outline: none;">
                 <input type="text" placeholder="Subject" style="padding: 0.8rem; border-radius: 4px; border: 1px solid #ddd; font-family: inherit; font-size: 0.9rem; outline: none;">
               </div>

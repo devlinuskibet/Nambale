@@ -58,7 +58,7 @@ export default function renderAcademics() {
             
             <div>
               <h4 style="color: var(--accent-red); font-weight: 700; font-size: 1rem; text-align: center; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Nambale Shiners High School during sports</h4>
-              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
                 <img src="/images/academics/Competitive Sports.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Sports" />
                 <img src="/images/academics/Competitive Sports1.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Sports" />
                 <img src="/images/academics/Competitive Sports2.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Sports" />
@@ -81,7 +81,7 @@ export default function renderAcademics() {
             
             <div style="order: 1;">
               <h4 style="color: var(--accent-red); font-weight: 700; font-size: 1rem; text-align: center; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Creative Arts & Drama Team</h4>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
                 <img src="/images/academics/Creative Arts & Drama Team1.webp" style="width: 100%; height: 150px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05); grid-column: span 2;" alt="Drama" />
                 <img src="/images/academics/Creative Arts & Drama Team2.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Drama" />
                 <img src="/images/academics/Creative Arts & Drama Team3.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Drama" />

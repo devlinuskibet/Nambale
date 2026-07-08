@@ -67,7 +67,7 @@ export default function renderContact() {
             <p style="color: #666; font-size: 1rem; margin-bottom: 2rem;">Fill out the form below and our team will get back to you promptly.</p>
             
             <form onsubmit="event.preventDefault(); alert('Message sent successfully! We will contact you soon.');" style="display: flex; flex-direction: column; gap: 1.5rem;">
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
                 <div style="display: flex; flex-direction: column; gap: 0.5rem;">
                   <label style="color: var(--dark-charcoal); font-weight: 600; font-size: 0.9rem;">Full Name *</label>
                   <input type="text" placeholder="John Doe" required style="padding: 1rem; border-radius: 8px; border: 1px solid #ddd; font-family: inherit; font-size: 1rem; outline: none; transition: border-color 0.3s ease;" onfocus="this.style.borderColor='var(--primary-maroon)'" onblur="this.style.borderColor='#ddd'">
