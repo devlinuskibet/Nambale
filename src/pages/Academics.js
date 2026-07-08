@@ -1,6 +1,6 @@
 export default function renderAcademics() {
   return `
-    <section class="hero animate-fade-in" style="background: linear-gradient(135deg, rgba(92,6,18,0.7), rgba(45,49,52,0.8)), url('/images/academics/hero-placeholder.jpg') center/cover; padding: 6rem 1rem; border-radius: 0 0 20px 20px;">
+    <section id="academics-hero" class="hero animate-fade-in" style="background: linear-gradient(135deg, rgba(92,6,18,0.7), rgba(45,49,52,0.8)), url('/images/academics/Academics & Co-Corricular activities1.webp') center/cover; padding: 6rem 1rem; border-radius: 0 0 20px 20px; transition: background-image 1s ease-in-out;">
       <div class="container text-center">
         <h1 style="color: var(--pure-white); font-size: 3.5rem; font-weight: 800; text-shadow: 2px 2px 8px rgba(0,0,0,0.4); margin-bottom: 1rem;">Academics & Co-Curricular</h1>
         <p style="color: var(--soft-gray); font-size: 1.25rem; max-width: 600px; margin: 0 auto;">Fostering academic excellence and character development</p>
@@ -12,18 +12,12 @@ export default function renderAcademics() {
       <!-- Academics Section -->
       <div class="grid grid-cols-2" style="margin-bottom: 5rem; align-items: center; gap: 4rem;">
         
-        <!-- Image Collage Placeholder -->
+        <!-- Image Slider Placeholder -->
         <div style="position: relative;">
           <h3 style="color: var(--accent-red); font-size: 1.1rem; font-weight: 700; text-align: center; margin-bottom: 2rem; text-transform: uppercase; letter-spacing: 1px;">Life & Learning at Shiners</h3>
-          <div class="image-collage" style="min-height: 400px; padding: 0;">
-            <div style="width: 65%; height: 250px; background: linear-gradient(135deg, #e0e0e0, #f5f5f5); position: absolute; z-index: 2; transform: translateX(-15%) translateY(-10%); border-radius: 16px; border: 4px solid var(--pure-white); box-shadow: var(--shadow-lg); display: flex; align-items: center; justify-content: center;">
-              <span style="color: #888; font-weight: bold; font-size: 1.1rem; text-align: center; padding: 1rem;">[ cbc grade 1st ]</span>
-            </div>
-            <div style="width: 65%; height: 250px; background: linear-gradient(135deg, #e0e0e0, #f5f5f5); position: absolute; z-index: 1; transform: translateX(15%) translateY(15%); border-radius: 16px; border: 4px solid var(--pure-white); box-shadow: var(--shadow-lg); display: flex; align-items: center; justify-content: center;">
-              <span style="color: #888; font-weight: bold; font-size: 1.1rem; text-align: center; padding: 1rem;">[ cbc 4th ]</span>
-            </div>
+          <div id="life-learning-slider" style="height: 350px; background: url('/images/academics/Life & Learning1.webp') center/cover; border-radius: 16px; border: 4px solid var(--pure-white); box-shadow: var(--shadow-lg); transition: background-image 1s ease-in-out;">
           </div>
-          <div style="text-align: center; margin-top: -2rem; color: #ccc; letter-spacing: 5px; font-size: 1.2rem;">● ● ●</div>
+          <div style="text-align: center; margin-top: 1rem; color: #ccc; letter-spacing: 5px; font-size: 1.2rem;">● ● ●</div>
         </div>
 
         <div>
@@ -65,11 +59,11 @@ export default function renderAcademics() {
             <div>
               <h4 style="color: var(--accent-red); font-weight: 700; font-size: 1rem; text-align: center; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Nambale Shiners High School during sports</h4>
               <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
-                <div style="background: #f0f0f0; height: 120px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; text-align: center; color: #888; font-weight: 600; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">[ sports image ]</div>
-                <div style="background: #f0f0f0; height: 120px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; text-align: center; color: #888; font-weight: 600; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">[ sports2 ]</div>
-                <div style="background: #f0f0f0; height: 120px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; text-align: center; color: #888; font-weight: 600; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">[ sportsprep ]</div>
-                <div style="background: #f0f0f0; height: 120px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; text-align: center; color: #888; font-weight: 600; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">[ sports4 ]</div>
-                <div style="background: #f0f0f0; height: 120px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; text-align: center; color: #888; font-weight: 600; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">[ sports3 ]</div>
+                <img src="/images/academics/Competitive Sports.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Sports" />
+                <img src="/images/academics/Competitive Sports1.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Sports" />
+                <img src="/images/academics/Competitive Sports2.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Sports" />
+                <img src="/images/academics/Competitive Sports3.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Sports" />
+                <img src="/images/academics/Competitive Sports4.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Sports" />
               </div>
             </div>
           </div>
@@ -88,9 +82,9 @@ export default function renderAcademics() {
             <div style="order: 1;">
               <h4 style="color: var(--accent-red); font-weight: 700; font-size: 1rem; text-align: center; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Creative Arts & Drama Team</h4>
               <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
-                <div style="background: #e6e6e6; height: 150px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; text-align: center; color: #777; font-weight: 600; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05); grid-column: span 2;">[ music1 ]</div>
-                <div style="background: #e6e6e6; height: 120px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; text-align: center; color: #777; font-weight: 600; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">[ music2 ]</div>
-                <div style="background: #e6e6e6; height: 120px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; text-align: center; color: #777; font-weight: 600; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);">[ music3 ]</div>
+                <img src="/images/academics/Creative Arts & Drama Team1.webp" style="width: 100%; height: 150px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05); grid-column: span 2;" alt="Drama" />
+                <img src="/images/academics/Creative Arts & Drama Team2.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Drama" />
+                <img src="/images/academics/Creative Arts & Drama Team3.webp" style="width: 100%; height: 120px; object-fit: cover; border-radius: 12px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);" alt="Drama" />
               </div>
             </div>
           </div>
@@ -111,9 +105,7 @@ export default function renderAcademics() {
               <li style="display: flex; align-items: center; gap: 0.75rem;">✅ Dormitories for boarding students</li>
               <li style="display: flex; align-items: center; gap: 0.75rem;">✅ Classrooms</li>
             </ul>
-            <div style="background: rgba(0,0,0,0.2); height: 200px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px dashed rgba(255,255,255,0.2);">
-              <span style="font-size: 2rem; margin-bottom: 0.5rem;">📸</span>
-              <p style="color: rgba(255,255,255,0.5); font-size: 0.9rem;">[ Facilities Image Slider Placeholder ]</p>
+            <div id="facilities-slider" style="background: rgba(0,0,0,0.2) url('/images/academics/Current Facilities.webp') center/cover; height: 250px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.2); transition: background-image 1s ease-in-out; position: relative;">
             </div>
           </div>
           
