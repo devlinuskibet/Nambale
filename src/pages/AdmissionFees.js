@@ -1,6 +1,6 @@
 export default function renderAdmissionFees() {
   return `
-    <section class="hero animate-fade-in" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/admission/hero-placeholder.jpg') center/cover; padding: 8rem 1rem 4rem 1rem;">
+    <section class="hero animate-fade-in" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/admission/admission%20and%20fees.webp') center/cover; padding: 8rem 1rem 4rem 1rem;">
       <div class="container" style="max-width: 1000px; margin: 0 auto; padding-left: 2rem;">
         <h1 style="color: var(--pure-white); font-size: 3rem; font-weight: 700; margin-bottom: 0.5rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); text-align: left;">Admission and Fees</h1>
         <p style="color: var(--pure-white); font-size: 1rem; font-weight: 500; text-align: left;">
