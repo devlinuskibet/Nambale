@@ -200,8 +200,9 @@ mobileMenuBtn.addEventListener('click', () => {
   navLinksContainer.classList.toggle('show');
 });
 
-// Close mobile menu on link click
-navLinks.forEach(link => {
+// Close mobile menu on ANY link click inside nav container
+const allNavLinks = document.querySelectorAll('#nav-links a');
+allNavLinks.forEach(link => {
   link.addEventListener('click', () => {
     navLinksContainer.classList.remove('show');
   });
