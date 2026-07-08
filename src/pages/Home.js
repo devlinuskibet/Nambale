@@ -110,6 +110,38 @@ export default function renderHome() {
         </div>
       </div>
 
+      <div style="margin-top: 4rem; margin-bottom: 4rem;">
+        <h2 class="text-center" style="color: var(--primary-maroon); margin-bottom: 2rem;">Current Status</h2>
+        <div class="glass-card text-center mb-4" style="margin-bottom: 2rem; background: var(--pure-white);">
+          <p style="font-size: 1.15rem; max-width: 900px; margin: 0 auto; color: var(--dark-charcoal);">
+            Admission is ongoing for Junior Secondary (Grades 7-9) and Senior Secondary (Grades 10-12). We have a dedicated team of teachers and other staff that supports our learners.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-2" style="margin-bottom: 2rem;">
+          <div class="glass-card text-center" style="background: var(--pure-white); border-top: 4px solid var(--accent-red);">
+            <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;"><span class="counter" data-target="211">0</span></div>
+            <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 0.5rem; font-size: 0.9rem;">Boarding Students</p>
+          </div>
+          <div class="glass-card text-center" style="background: var(--pure-white); border-top: 4px solid var(--accent-red);">
+            <div style="font-size: 3rem; color: var(--accent-red); font-weight: 700;"><span class="counter" data-target="70">0</span>+</div>
+            <p style="font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-top: 0.5rem; font-size: 0.9rem;">Students in Form 2 (8-4-4)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-wrap" style="margin-bottom: 4rem; align-items: stretch;">
+        <div class="glass-card" style="flex: 1; min-width: 300px; background: var(--primary-maroon); color: var(--pure-white);">
+          <h2 style="color: var(--pure-white);">Philosophy</h2>
+          <p style="font-size: 1.05rem; line-height: 1.6;">We believe every child is uniquely gifted by God. Our mission is to nurture well rounded learners who grow in knowledge, character and faith, equiping them to use their God-given talents to positively impact society.</p>
+        </div>
+        
+        <div class="glass-card" style="flex: 2; min-width: 300px; background: linear-gradient(135deg, var(--pure-white), var(--soft-gray));">
+          <h2 style="color: var(--primary-maroon);">Our Future Vision</h2>
+          <p style="font-size: 1.05rem; line-height: 1.6;">By end of 2026, Nambale Shiners High School plans to establish a permanent, modern campus on acquired land in Nambale. The new facility will include classrooms, separate dormitories for boys and girls, dining and assembly halls, computer and science labs, a library, sports fields, and green landscaped spaces to adjust and adapt in their day to day lives as a result of global epidemic COVID-19.</p>
+        </div>
+      </div>
+
     </section>
   `;
 }
