@@ -34,15 +34,15 @@ function initHeroSlider() {
   ];
   
   heroSection.style.transition = 'background-image 1s ease-in-out';
-  heroSection.style.backgroundImage = `linear-gradient(135deg, rgba(92,6,18,0.9), rgba(128,10,29,0.9)), url('${images[0]}')`;
+  heroSection.style.backgroundImage = `linear-gradient(135deg, rgba(92,6,18,0.6), rgba(128,10,29,0.6)), url('${images[0]}')`;
   
   let currentIndex = 0;
   if (heroSliderInterval) clearInterval(heroSliderInterval);
 
   heroSliderInterval = setInterval(() => {
     currentIndex = (currentIndex + 1) % images.length;
-    heroSection.style.backgroundImage = `linear-gradient(135deg, rgba(92,6,18,0.9), rgba(128,10,29,0.9)), url('${images[currentIndex]}')`;
-  }, 5000);
+    heroSection.style.backgroundImage = `linear-gradient(135deg, rgba(92,6,18,0.6), rgba(128,10,29,0.6)), url('${images[currentIndex]}')`;
+  }, 4000);
 }
 
 function initCounters() {

@@ -398,7 +398,7 @@ main {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, rgba(92,6,18,0.9), rgba(128,10,29,0.9)), url('https://shinershighschool.sc.ke/sitepad-data/uploads/2025/11/gate-view.jpg');
+  background: linear-gradient(135deg, rgba(92,6,18,0.6), rgba(128,10,29,0.6)), url('https://shinershighschool.sc.ke/sitepad-data/uploads/2025/11/gate-view.jpg');
   background-size: cover;
   background-position: center;
   color: var(--pure-white);
