@@ -42,33 +42,33 @@ export default function renderGallery() {
           <!-- Video 1 -->
           <div style="background: var(--pure-white); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
             <div style="background: #000; height: 350px; position: relative; display: flex; align-items: center; justify-content: center;">
-              <video src="/images/gallery/Shiners-Web-Video.mp4" controls preload="metadata" style="width: 100%; height: 100%; object-fit: contain;"></video>
+              <video src="/images/gallery/welcoming%20message.mp4" controls preload="metadata" style="width: 100%; height: 100%; object-fit: contain;"></video>
             </div>
             <div style="padding: 1.5rem;">
-              <h3 style="color: var(--dark-charcoal); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Nambale Shiners Spotlight</h3>
-              <p style="color: #777; font-size: 0.95rem;">Experience the spirit, discipline, and excellence that define our students and faculty every day.</p>
+              <h3 style="color: var(--dark-charcoal); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Welcoming Message</h3>
+              <p style="color: #777; font-size: 0.95rem;">A warm welcome to Nambale Shiners High School.</p>
             </div>
           </div>
           
           <!-- Video 2 -->
           <div style="background: var(--pure-white); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
             <div style="background: #000; height: 350px; position: relative; display: flex; align-items: center; justify-content: center;">
-              <video src="/images/gallery/VID-20251120-WA0006.mp4" controls preload="metadata" style="width: 100%; height: 100%; object-fit: contain;"></video>
+              <video src="/images/gallery/school%20overview.mp4" controls preload="metadata" style="width: 100%; height: 100%; object-fit: contain;"></video>
             </div>
             <div style="padding: 1.5rem;">
-              <h3 style="color: var(--dark-charcoal); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Student Life & Highlights</h3>
-              <p style="color: #777; font-size: 0.95rem;">Watch our students excel in their co-curricular activities, academics, and school events.</p>
+              <h3 style="color: var(--dark-charcoal); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">School Overview</h3>
+              <p style="color: #777; font-size: 0.95rem;">A glimpse into our campus, facilities, and the Nambale Shiners experience.</p>
             </div>
           </div>
           
           <!-- Video 3 -->
           <div style="background: var(--pure-white); border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.05); display: flex; flex-direction: column;">
             <div style="background: #000; height: 350px; position: relative; display: flex; align-items: center; justify-content: center;">
-              <video src="/images/gallery/VID-20251120-WA0005.mp4" controls preload="metadata" style="width: 100%; height: 100%; object-fit: contain;"></video>
+              <video src="/images/gallery/students%20singing%20a%20thank%20you%20song.mp4" controls preload="metadata" style="width: 100%; height: 100%; object-fit: contain;"></video>
             </div>
             <div style="padding: 1.5rem;">
-              <h3 style="color: var(--dark-charcoal); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Campus Events</h3>
-              <p style="color: #777; font-size: 0.95rem;">A glimpse into the ceremonies, activities, and proud moments of Nambale Shiners.</p>
+              <h3 style="color: var(--dark-charcoal); font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem;">Students' Thank You Song</h3>
+              <p style="color: #777; font-size: 0.95rem;">Our students express their gratitude and joy through a heartwarming performance.</p>
             </div>
           </div>
           
