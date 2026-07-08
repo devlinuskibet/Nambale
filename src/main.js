@@ -18,6 +18,33 @@ const routes = {
   'participate': renderParticipate,
 };
 
+let heroSliderInterval;
+
+function initHeroSlider() {
+  const heroSection = document.querySelector('.hero');
+  if (!heroSection) return;
+
+  const images = [
+    '/images/home/background-change.webp',
+    '/images/home/background-change (2).webp',
+    '/images/home/background-change (3).webp',
+    '/images/home/background-change (4).webp',
+    '/images/home/background-change (5).webp',
+    '/images/home/background-change (6).webp'
+  ];
+  
+  heroSection.style.transition = 'background-image 1s ease-in-out';
+  heroSection.style.backgroundImage = `linear-gradient(135deg, rgba(92,6,18,0.9), rgba(128,10,29,0.9)), url('${images[0]}')`;
+  
+  let currentIndex = 0;
+  if (heroSliderInterval) clearInterval(heroSliderInterval);
+
+  heroSliderInterval = setInterval(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    heroSection.style.backgroundImage = `linear-gradient(135deg, rgba(92,6,18,0.9), rgba(128,10,29,0.9)), url('${images[currentIndex]}')`;
+  }, 5000);
+}
+
 function initCounters() {
   const counters = document.querySelectorAll('.counter');
   if (counters.length === 0) return;
@@ -62,6 +89,11 @@ function handleRoute() {
   const hash = window.location.hash.replace('#', '') || 'home';
   const renderFn = routes[hash] || routes['home'];
 
+  if (heroSliderInterval) {
+    clearInterval(heroSliderInterval);
+    heroSliderInterval = null;
+  }
+
   // Add fade-out effect
   appContent.classList.add('fade-out');
 
@@ -80,6 +112,7 @@ function handleRoute() {
     // Init counters if on home page
     if (hash === 'home' || hash === '') {
       initCounters();
+      initHeroSlider();
     }
 
     // Scroll to top
