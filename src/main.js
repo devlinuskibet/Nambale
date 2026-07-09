@@ -7,6 +7,7 @@ import renderAdmissionFees from './pages/AdmissionFees.js';
 import renderParticipate from './pages/Participate.js';
 import renderContact from './pages/Contact.js';
 import renderGallery from './pages/Gallery.js';
+import renderDonate from './pages/Donate.js';
 
 const appContent = document.getElementById('app-content');
 const navLinks = document.querySelectorAll('.nav-link');
@@ -20,6 +21,7 @@ const routes = {
   'participate': renderParticipate,
   'contact': renderContact,
   'gallery': renderGallery,
+  'donate': renderDonate,
 };
 
 let heroSliderInterval;
