@@ -1,6 +1,6 @@
 :root {
-  --primary-maroon: #5C0612;
-  --accent-red: #800A1D;
+  --primary-maroon: #8E0F21;
+  --accent-red: #B51A2E;
   --pure-white: #FFFFFF;
   --soft-gray: #F4F6F7;
   --dark-charcoal: #2D3134;
@@ -225,6 +225,16 @@ header {
   position: relative;
 }
 
+.mobile-only-socials {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-only-socials {
+    display: flex;
+  }
+}
+
 .nav-links a::after {
   content: '';
   position: absolute;
@@ -444,6 +454,10 @@ main {
   }
   .mobile-menu-btn {
     display: block;
+  }
+  .mobile-only-socials {
+    display: flex;
+    justify-content: center;
   }
   .hero {
     padding: 4rem 1rem;

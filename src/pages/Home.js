@@ -55,20 +55,20 @@ export default function renderHome() {
         </div>
       </div>
       
-      <div class="glass-card" style="margin-bottom: 4rem; background: linear-gradient(rgba(45,49,52,0.6), rgba(45,49,52,0.6)), url('/images/home/institutional satements.webp'); background-size: cover; background-position: center; color: var(--pure-white);">
-        <h2 style="color: var(--pure-white); text-align: center; margin-bottom: 2rem;">Institutional Statements</h2>
+      <div class="glass-card" style="margin-bottom: 4rem; background: linear-gradient(rgba(45,49,52,0.7), rgba(45,49,52,0.7)), url('/images/home/institutional satements.webp'); background-size: cover; background-position: center; color: var(--pure-white);">
+        <h2 style="color: var(--pure-white); text-align: center; margin-bottom: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Institutional Statements</h2>
         <div class="grid grid-cols-3 text-center">
           <div>
-            <strong style="color: var(--accent-red); text-transform: uppercase; font-size: 1.1rem;">Vision</strong>
-            <p style="margin-top: 1rem;">A society with God-fearing, functional, self-reliant, enlightened and law-abiding citizens</p>
+            <strong style="color: #FFF; text-transform: uppercase; font-size: 1.6rem; letter-spacing: 1px; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Vision</strong>
+            <p style="margin-top: 1rem; font-size: 1.15rem;">A society with God-fearing, functional, self-reliant, enlightened and law-abiding citizens</p>
           </div>
           <div>
-            <strong style="color: var(--accent-red); text-transform: uppercase; font-size: 1.1rem;">Mission</strong>
-            <p style="margin-top: 1rem;">To provide value-based education that prepares learners for academic excellence, positive outcomes, and meaningful integration into society.</p>
+            <strong style="color: #FFF; text-transform: uppercase; font-size: 1.6rem; letter-spacing: 1px; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Mission</strong>
+            <p style="margin-top: 1rem; font-size: 1.15rem;">To provide value-based education that prepares learners for academic excellence, positive outcomes, and meaningful integration into society.</p>
           </div>
           <div>
-            <strong style="color: var(--accent-red); text-transform: uppercase; font-size: 1.1rem;">Motto</strong>
-            <p style="margin-top: 1rem; font-style: italic;">"Education for Service and Success"</p>
+            <strong style="color: #FFF; text-transform: uppercase; font-size: 1.6rem; letter-spacing: 1px; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Motto</strong>
+            <p style="margin-top: 1rem; font-style: italic; font-size: 1.15rem;">"Education for Service and Success"</p>
           </div>
         </div>
       </div>

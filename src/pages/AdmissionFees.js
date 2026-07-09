@@ -13,7 +13,7 @@ export default function renderAdmissionFees() {
       <div class="container" style="max-width: 850px; margin: 0 auto;">
         
         <!-- Admission -->
-        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">Admission</h2>
+        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; color: #ffcc00;">Admission</h2>
         <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1.5rem;">Join a Winning Community</h3>
         <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 2rem;">
           Nambale Shiners High School is actively hosting education stakeholders, parents, and community leaders who continue to praise our exceptional discipline standards, academic commitment, and impeccably clean environment. Secure your child's future in an ecosystem designed for holistic, value-based growth.
@@ -40,7 +40,7 @@ export default function renderAdmissionFees() {
         </a>
         
         <!-- School Fees Payment -->
-        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 2.5rem;">School Fees Payment</h2>
+        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 2.5rem; color: #ffcc00;">School Fees Payment</h2>
         
         <div style="text-align: left; margin-bottom: 2.5rem;">
           <h3 style="color: #ffcc00; font-size: 1.15rem; font-weight: 700; margin-bottom: 0.25rem;">Bank Deposits</h3>
