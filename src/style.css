@@ -449,6 +449,20 @@ main {
     padding: 4rem 1rem;
     border-radius: 0 0 20px 20px;
   }
+  
+  .image-collage {
+    min-height: auto;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .image-collage img {
+    position: relative !important;
+    width: 100% !important;
+    transform: none !important;
+    max-height: 220px;
+  }
 }
 
 /* Image Collage Layouts */
