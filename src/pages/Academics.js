@@ -26,7 +26,7 @@ export default function renderAcademics() {
           
           <div class="glass-card" style="margin-bottom: 1.5rem; background: var(--pure-white); border-left: 4px solid var(--accent-red); transition: transform 0.3s ease; cursor: default;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
             <h3 style="color: var(--primary-maroon); font-size: 1.3rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span>📘</span> Junior Secondary School
+              <span><i class="fa-solid fa-book"></i></span> Junior Secondary School
             </h3>
             <p style="color: var(--accent-red); font-size: 0.9rem; font-weight: 700; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Grades 7–9</p>
             <p style="color: var(--dark-charcoal); line-height: 1.6; margin-bottom: 0;">Implementing the Competency-Based Curriculum (CBC) to build strong foundational knowledge, critical thinking, and core skills.</p>
@@ -34,7 +34,7 @@ export default function renderAcademics() {
           
           <div class="glass-card" style="background: var(--pure-white); border-left: 4px solid var(--primary-maroon); transition: transform 0.3s ease; cursor: default;" onmouseover="this.style.transform='translateX(10px)'" onmouseout="this.style.transform='translateX(0)'">
             <h3 style="color: var(--primary-maroon); font-size: 1.3rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span>🎓</span> Senior Secondary School
+              <span><i class="fa-solid fa-graduation-cap"></i></span> Senior Secondary School
             </h3>
             <p style="color: var(--accent-red); font-size: 0.9rem; font-weight: 700; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">Grades 10–12</p>
             <p style="color: var(--dark-charcoal); line-height: 1.6; margin-bottom: 0;">Providing specialized pathways as we fully transition into the advanced CBC senior system, empowering students for higher education and future careers.</p>
@@ -51,7 +51,7 @@ export default function renderAcademics() {
           <div class="grid grid-cols-2" style="gap: 4rem; align-items: center;">
             <div>
               <h3 style="color: var(--primary-maroon); font-size: 1.8rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-                <span>⚽</span> Competitive Sports & Games
+                <span><i class="fa-solid fa-futbol"></i></span> Competitive Sports & Games
               </h3>
               <p style="margin-bottom: 1.5rem; color: var(--dark-charcoal); line-height: 1.7; font-size: 1.05rem;">Through track events, field games, and competitive sports, we foster a culture of physical fitness, resilience, and teamwork. Our students actively participate in inter-school championships, consistently carrying the school flag high.</p>
             </div>
@@ -74,7 +74,7 @@ export default function renderAcademics() {
           <div class="grid grid-cols-2" style="gap: 4rem; align-items: center;">
             <div style="order: 2;">
               <h3 style="color: var(--primary-maroon); font-size: 1.8rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-                <span>🎭</span> Music, Drama & Talent
+                <span><i class="fa-solid fa-masks-theater"></i></span> Music, Drama & Talent
               </h3>
               <p style="margin-bottom: 1.5rem; color: var(--dark-charcoal); line-height: 1.7; font-size: 1.05rem;">Nambale Shiners High School consistently shines on the national stage. Our performing arts teams, including the girls' music festival team, dedicate themselves to creative excellence, representing the school with discipline and pride at regional and national competitions.</p>
             </div>
@@ -101,9 +101,9 @@ export default function renderAcademics() {
           <div class="glass-card" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 2.5rem;">
             <h3 style="color: var(--pure-white); font-size: 1.8rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 1rem;">Current Facilities</h3>
             <ul style="list-style-type: none; padding: 0; margin-bottom: 2rem; line-height: 2.5; font-size: 1.1rem; color: #f0f0f0;">
-              <li style="display: flex; align-items: center; gap: 0.75rem;">✅ Science Laboratories</li>
-              <li style="display: flex; align-items: center; gap: 0.75rem;">✅ Dormitories for boarding students</li>
-              <li style="display: flex; align-items: center; gap: 0.75rem;">✅ Classrooms</li>
+              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: #28a745;"></i> Science Laboratories</li>
+              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: #28a745;"></i> Dormitories for boarding students</li>
+              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: #28a745;"></i> Classrooms</li>
             </ul>
             <div id="facilities-slider" style="background: rgba(0,0,0,0.2) url('/images/academics/Current Facilities.webp') center/cover; height: 250px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.2); transition: background-image 1s ease-in-out; position: relative;">
             </div>
@@ -112,14 +112,14 @@ export default function renderAcademics() {
           <div class="glass-card" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 2.5rem;">
             <h3 style="color: var(--pure-white); font-size: 1.8rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 1rem;">Planned Facilities (Future Campus)</h3>
             <ul style="list-style-type: none; padding: 0; line-height: 2.5; font-size: 1.1rem; color: #f0f0f0; columns: 2; column-gap: 2rem;">
-              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);">🚀</span> Dining hall</li>
-              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);">🚀</span> Library</li>
-              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);">🚀</span> Assembly hall</li>
-              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);">🚀</span> Modern dormitories</li>
-              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);">🚀</span> Staff housing</li>
-              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);">🚀</span> Sports grounds</li>
-              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);">🚀</span> Parking areas</li>
-              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);">🚀</span> Computer lab</li>
+              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);"><i class="fa-solid fa-caret-right"></i></span> Dining hall</li>
+              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);"><i class="fa-solid fa-caret-right"></i></span> Library</li>
+              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);"><i class="fa-solid fa-caret-right"></i></span> Assembly hall</li>
+              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);"><i class="fa-solid fa-caret-right"></i></span> Modern dormitories</li>
+              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);"><i class="fa-solid fa-caret-right"></i></span> Staff housing</li>
+              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);"><i class="fa-solid fa-caret-right"></i></span> Sports grounds</li>
+              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);"><i class="fa-solid fa-caret-right"></i></span> Parking areas</li>
+              <li style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;"><span style="color: var(--accent-red);"><i class="fa-solid fa-caret-right"></i></span> Computer lab</li>
             </ul>
           </div>
 
@@ -131,7 +131,7 @@ export default function renderAcademics() {
     <section class="container text-center animate-fade-in" style="padding: 6rem 1rem;">
       <div class="glass-card" style="max-width: 600px; margin: 0 auto; background: var(--pure-white); border: 1px solid #eee; box-shadow: var(--shadow-lg);">
         <div style="background: rgba(92,6,18,0.05); border-radius: 50%; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem auto;">
-          <span style="font-size: 2.5rem;">📥</span>
+          <span style="font-size: 2.5rem; color: var(--primary-maroon);"><i class="fa-solid fa-download"></i></span>
         </div>
         <h2 style="color: var(--primary-maroon); font-size: 2rem; margin-bottom: 1rem; font-weight: 800;">Academic Downloads</h2>
         <p style="color: #28a745; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem;">Senior School Teachers Handbook</p>
