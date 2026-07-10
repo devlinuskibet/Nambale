@@ -19,28 +19,28 @@ export default function renderParticipate() {
         <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
           <div style="background: var(--pure-white); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.05); transition: transform 0.3s ease;">
             <h3 style="color: var(--dark-charcoal); font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span style="color: #28a745; font-size: 1.2rem;"><i class="fa-solid fa-heart"></i></span> Make an Impact
+              <span style="color: var(--primary-maroon); font-size: 1.2rem;"><i class="fa-solid fa-heart"></i></span> Make an Impact
             </h3>
             <p style="color: #555; font-size: 0.95rem; line-height: 1.5;">Drive real, lasting change within the community.</p>
           </div>
           
           <div style="background: var(--pure-white); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.05); transition: transform 0.3s ease;">
             <h3 style="color: var(--dark-charcoal); font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span style="color: #28a745; font-size: 1.2rem;"><i class="fa-solid fa-heart"></i></span> Inspire Youth
+              <span style="color: var(--primary-maroon); font-size: 1.2rem;"><i class="fa-solid fa-heart"></i></span> Inspire Youth
             </h3>
             <p style="color: #555; font-size: 0.95rem; line-height: 1.5;">Directly mentor and guide young people toward successful paths.</p>
           </div>
           
           <div style="background: var(--pure-white); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.05); transition: transform 0.3s ease;">
             <h3 style="color: var(--dark-charcoal); font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span style="color: #28a745; font-size: 1.2rem;"><i class="fa-solid fa-heart"></i></span> Gain Experience
+              <span style="color: var(--primary-maroon); font-size: 1.2rem;"><i class="fa-solid fa-heart"></i></span> Gain Experience
             </h3>
             <p style="color: #555; font-size: 0.95rem; line-height: 1.5;">Build real-world leadership, communication, and teamwork skills.</p>
           </div>
           
           <div style="background: var(--pure-white); padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid rgba(0,0,0,0.05); transition: transform 0.3s ease;">
             <h3 style="color: var(--dark-charcoal); font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span style="color: #28a745; font-size: 1.2rem;"><i class="fa-solid fa-heart"></i></span> Holistic Community
+              <span style="color: var(--primary-maroon); font-size: 1.2rem;"><i class="fa-solid fa-heart"></i></span> Holistic Community
             </h3>
             <p style="color: #555; font-size: 0.95rem; line-height: 1.5;">Belong to a rapidly growing, highly disciplined academic family.</p>
           </div>
@@ -87,10 +87,10 @@ export default function renderParticipate() {
             
             <h3 style="color: var(--accent-red); font-size: 1.1rem; font-weight: 700; text-align: center; margin-bottom: 1rem;">Areas of Volunteering</h3>
             <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.8rem; text-align: center;">
-              <li style="color: var(--dark-charcoal); font-weight: 600; font-size: 0.95rem;"><i class="fa-solid fa-seedling" style="color: #28a745;"></i> Environmental Conservation & Community Clean-Ups</li>
+              <li style="color: var(--dark-charcoal); font-weight: 600; font-size: 0.95rem;"><i class="fa-solid fa-seedling" style="color: var(--primary-maroon);"></i> Environmental Conservation & Community Clean-Ups</li>
               <li style="color: var(--dark-charcoal); font-weight: 600; font-size: 0.95rem;"><i class="fa-solid fa-bullhorn" style="color: var(--primary-maroon);"></i> Student Mentorship, Guidance & Motivational Talks</li>
-              <li style="color: var(--dark-charcoal); font-weight: 600; font-size: 0.95rem;"><i class="fa-solid fa-palette" style="color: #ffcc00;"></i> Talent, Co-Curricular & Sports Support</li>
-              <li style="color: var(--dark-charcoal); font-weight: 600; font-size: 0.95rem;"><i class="fa-solid fa-laptop-code" style="color: var(--dark-charcoal);"></i> ICT & Digital Skills Training</li>
+              <li style="color: var(--dark-charcoal); font-weight: 600; font-size: 0.95rem;"><i class="fa-solid fa-palette" style="color: var(--primary-maroon);"></i> Talent, Co-Curricular & Sports Support</li>
+              <li style="color: var(--dark-charcoal); font-weight: 600; font-size: 0.95rem;"><i class="fa-solid fa-laptop-code" style="color: var(--primary-maroon);"></i> ICT & Digital Skills Training</li>
             </ul>
           </div>
           

@@ -86,12 +86,12 @@ export default function renderHome() {
         </div>
         <div class="grid grid-cols-3">
           <div class="glass-card text-center" style="background: var(--pure-white); border-top: 4px solid var(--primary-maroon);">
-            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--accent-red);"><i class="fa-solid fa-hands-praying"></i></div>
+            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary-maroon);"><i class="fa-solid fa-hands-praying"></i></div>
             <h3 style="font-size: 1.2rem; color: var(--primary-maroon);">Faith in God</h3>
             <p style="font-size: 0.95rem;">Christ is at the center of all that we do.</p>
           </div>
           <div class="glass-card text-center" style="background: var(--pure-white); border-top: 4px solid var(--primary-maroon);">
-            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #ffcc00;"><i class="fa-solid fa-star"></i></div>
+            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary-maroon);"><i class="fa-solid fa-star"></i></div>
             <h3 style="font-size: 1.2rem; color: var(--primary-maroon);">Excellence</h3>
             <p style="font-size: 0.95rem;">Striving for high standards in academics and in life.</p>
           </div>
@@ -101,12 +101,12 @@ export default function renderHome() {
             <p style="font-size: 0.95rem;">Building character through honesty and discipline.</p>
           </div>
           <div class="glass-card text-center" style="background: var(--pure-white); border-top: 4px solid var(--primary-maroon);">
-            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #28a745;"><i class="fa-solid fa-handshake"></i></div>
+            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary-maroon);"><i class="fa-solid fa-handshake"></i></div>
             <h3 style="font-size: 1.2rem; color: var(--primary-maroon);">Community</h3>
             <p style="font-size: 0.95rem;">Working together as students, parents and teachers.</p>
           </div>
           <div class="glass-card text-center" style="background: var(--pure-white); border-top: 4px solid var(--primary-maroon);">
-            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #20c997;"><i class="fa-solid fa-seedling"></i></div>
+            <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary-maroon);"><i class="fa-solid fa-seedling"></i></div>
             <h3 style="font-size: 1.2rem; color: var(--primary-maroon);">Growth</h3>
             <p style="font-size: 0.95rem;">Helping students develop intellectually, spiritually, socially, and physically.</p>
           </div>

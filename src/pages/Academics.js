@@ -101,9 +101,9 @@ export default function renderAcademics() {
           <div class="glass-card" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 2.5rem;">
             <h3 style="color: var(--pure-white); font-size: 1.8rem; margin-bottom: 1.5rem; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 1rem;">Current Facilities</h3>
             <ul style="list-style-type: none; padding: 0; margin-bottom: 2rem; line-height: 2.5; font-size: 1.1rem; color: #f0f0f0;">
-              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: #28a745;"></i> Science Laboratories</li>
-              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: #28a745;"></i> Dormitories for boarding students</li>
-              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: #28a745;"></i> Classrooms</li>
+              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: var(--primary-maroon);"></i> Science Laboratories</li>
+              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: var(--primary-maroon);"></i> Dormitories for boarding students</li>
+              <li style="display: flex; align-items: center; gap: 0.75rem;"><i class="fa-solid fa-circle-check" style="color: var(--primary-maroon);"></i> Classrooms</li>
             </ul>
             <div id="facilities-slider" style="background: rgba(0,0,0,0.2) url('/images/academics/Current Facilities.webp') center/cover; height: 250px; border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid rgba(255,255,255,0.2); transition: background-image 1s ease-in-out; position: relative;">
             </div>
