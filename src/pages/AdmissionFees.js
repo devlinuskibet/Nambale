@@ -57,31 +57,68 @@ export default function renderAdmissionFees() {
           <p style="font-size: 1rem; margin-bottom: 0.75rem;">The school's bank account details are as follows:</p>
         </div>
         
-        <div style="overflow-x: auto;">
-          <table style="width: 100%; border-collapse: collapse; text-align: center; background: var(--pure-white); color: #000; font-size: 0.85rem; border: 1.5px solid #000;">
-            <thead>
-              <tr style="border-bottom: 1.5px solid #000;">
-                <th style="padding: 0.75rem; border-right: 1.5px solid #000; font-weight: 700; text-transform: uppercase;">BANK NAME</th>
-                <th style="padding: 0.75rem; border-right: 1.5px solid #000; font-weight: 700; text-transform: uppercase;">ACCOUNT NAME</th>
-                <th style="padding: 0.75rem; border-right: 1.5px solid #000; font-weight: 700; text-transform: uppercase;">ACCOUNT NO / PAYBILL NO</th>
-                <th style="padding: 0.75rem; font-weight: 700; text-transform: uppercase;">Branch / Details</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr style="border-bottom: 1.5px solid #000;">
-                <td style="padding: 0.75rem; border-right: 1.5px solid #000; font-weight: 600;">Diamond Trust Bank</td>
-                <td style="padding: 0.75rem; border-right: 1.5px solid #000;">Nambale Shiners High School</td>
-                <td style="padding: 0.75rem; border-right: 1.5px solid #000;">0353815001</td>
-                <td style="padding: 0.75rem;">Branch Code: 048<br>Use A/C Number as Account Ref</td>
-              </tr>
-              <tr>
-                <td style="padding: 0.75rem; border-right: 1.5px solid #000; font-weight: 600;">M-Pesa Paybill</td>
-                <td style="padding: 0.75rem; border-right: 1.5px solid #000;">Nambale Shiners</td>
-                <td style="padding: 0.75rem; border-right: 1.5px solid #000;">518800</td>
-                <td style="padding: 0.75rem;">Use A/C Number as Account Ref</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="grid grid-cols-2" style="gap: 2rem; margin-top: 1rem;">
+          
+          <!-- Bank Card -->
+          <div style="background: var(--pure-white); border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.2); text-align: left; color: var(--dark-charcoal); display: flex; flex-direction: column;">
+            <div style="background: #17a2b8; color: white; padding: 1.5rem; border-bottom: 4px solid #138496;">
+              <h3 style="font-size: 1.3rem; font-weight: 800; margin: 0; display: flex; align-items: center; gap: 0.5rem; line-height: 1.3;">
+                <i class="fa-solid fa-building-columns"></i> Diamond Trust Bank Kenya Ltd
+              </h3>
+            </div>
+            <div style="padding: 1.5rem; flex: 1; display: flex; flex-direction: column;">
+              <div style="margin-bottom: 1rem;">
+                <span style="font-size: 0.85rem; color: #6c757d; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Account Name</span>
+                <div style="font-size: 1.1rem; font-weight: 800; color: var(--primary-maroon);">NAMBALE SHINERS HIGH SCHOOL</div>
+              </div>
+              <div style="margin-bottom: 1rem;">
+                <span style="font-size: 0.85rem; color: #6c757d; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Account Number</span>
+                <div style="font-size: 1.5rem; font-weight: 800; color: #28a745; letter-spacing: 2px;">0353615001</div>
+              </div>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; border-top: 1px solid #eee; padding-top: 1.5rem; margin-top: auto;">
+                <div>
+                  <span style="font-size: 0.8rem; color: #6c757d; font-weight: 700; text-transform: uppercase;">Branch</span>
+                  <div style="font-weight: 700; font-size: 1.05rem;">Busia</div>
+                </div>
+                <div>
+                  <span style="font-size: 0.8rem; color: #6c757d; font-weight: 700; text-transform: uppercase;">Swift Code</span>
+                  <div style="font-weight: 700; font-size: 1.05rem;">DTKEKENA</div>
+                </div>
+                <div>
+                  <span style="font-size: 0.8rem; color: #6c757d; font-weight: 700; text-transform: uppercase;">Bank Code</span>
+                  <div style="font-weight: 700; font-size: 1.05rem;">63</div>
+                </div>
+                <div>
+                  <span style="font-size: 0.8rem; color: #6c757d; font-weight: 700; text-transform: uppercase;">Branch Code</span>
+                  <div style="font-weight: 700; font-size: 1.05rem;">048</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- M-Pesa Card -->
+          <div style="background: var(--pure-white); border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.2); text-align: left; color: var(--dark-charcoal); display: flex; flex-direction: column;">
+            <div style="background: #28a745; color: white; padding: 1.5rem; border-bottom: 4px solid #1e7e34;">
+              <h3 style="font-size: 1.3rem; font-weight: 800; margin: 0; display: flex; align-items: center; gap: 0.5rem; line-height: 1.3;">
+                <i class="fa-solid fa-mobile-screen"></i> M-Pesa Paybill
+              </h3>
+            </div>
+            <div style="padding: 1.5rem; flex: 1; display: flex; flex-direction: column;">
+              <div style="margin-bottom: 1.5rem;">
+                <span style="font-size: 0.85rem; color: #6c757d; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Business Name</span>
+                <div style="font-size: 1.1rem; font-weight: 800; color: var(--primary-maroon);">NAMBALE SHINERS</div>
+              </div>
+              <div style="margin-bottom: 1.5rem;">
+                <span style="font-size: 0.85rem; color: #6c757d; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Paybill Number</span>
+                <div style="font-size: 1.8rem; font-weight: 800; color: #28a745; letter-spacing: 2px;">518800</div>
+              </div>
+              <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid var(--accent-red); margin-top: auto;">
+                <span style="font-size: 0.85rem; color: var(--primary-maroon); text-transform: uppercase; font-weight: 800;">Important Instruction</span>
+                <div style="font-weight: 600; font-size: 0.95rem; margin-top: 0.25rem;">Use the Student's Admission Number as the Account No. when paying via M-Pesa.</div>
+              </div>
+            </div>
+          </div>
+
         </div>
         
       </div>
