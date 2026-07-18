@@ -152,13 +152,13 @@ function initCounters() {
 }
 
 const seoMetadata = {
-  'home': { title: 'Nambale Shiners High School | Home', desc: "Nurturing Tomorrow's Leaders and Human Resource Today. An exceptional discipline standards and academic commitment ecosystem." },
-  'academics': { title: 'Academics | Nambale Shiners High School', desc: "Explore our Junior and Senior Secondary School programs, competitive sports, and modern learning facilities." },
-  'admission_fees': { title: 'Admission & Fees | Nambale Shiners High School', desc: "Join a winning community. Learn about our admission process, fee structure, and payment methods." },
-  'participate': { title: 'Get Involved | Nambale Shiners High School', desc: "Volunteer, mentor, and make an impact in our holistic academic community." },
-  'gallery': { title: 'Gallery | Nambale Shiners High School', desc: "View photos and videos of our vibrant school life, facilities, and events." },
-  'contact': { title: 'Contact Us | Nambale Shiners High School', desc: "Get in touch with Nambale Shiners High School. Find our location, phone number, and email." },
-  'donate': { title: 'Donate | Nambale Shiners High School', desc: "Support Nambale Shiners High School by making a donation to empower the next generation." },
+  'home': { title: 'Nambale Shiners High School | Best Schools in Nambale', desc: "Nurturing Tomorrow's Leaders and Human Resource Today. An exceptional discipline standards and academic commitment ecosystem at Shiners High." },
+  'academics': { title: 'Academics | Shiners High School Nambale', desc: "Explore our Junior and Senior Secondary School programs, competitive sports, and modern learning facilities at one of the best schools in Nambale." },
+  'admission_fees': { title: 'Admission & Fees | Nambale Shiners', desc: "Join a winning community. Learn about our admission process, fee structure, and payment methods for Nambale Shiners High School." },
+  'participate': { title: 'Get Involved | Shiners High', desc: "Volunteer, mentor, and make an impact in our holistic academic community at Nambale Shiners." },
+  'gallery': { title: 'Gallery | Nambale Shiners High School', desc: "View photos and videos of our vibrant school life, facilities, and events at Shiners High." },
+  'contact': { title: 'Contact Us | Best Schools in Nambale', desc: "Get in touch with Nambale Shiners High School. Find our location in Nambale, phone number, and email." },
+  'donate': { title: 'Donate | Nambale Shiners High School', desc: "Support Shiners High School by making a donation to empower the next generation in Nambale." },
 };
 
 function updateSEO(path) {
