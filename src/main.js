@@ -151,9 +151,28 @@ function initCounters() {
   runSequence();
 }
 
+const seoMetadata = {
+  'home': { title: 'Nambale Shiners High School | Home', desc: "Nurturing Tomorrow's Leaders and Human Resource Today. An exceptional discipline standards and academic commitment ecosystem." },
+  'academics': { title: 'Academics | Nambale Shiners High School', desc: "Explore our Junior and Senior Secondary School programs, competitive sports, and modern learning facilities." },
+  'admission_fees': { title: 'Admission & Fees | Nambale Shiners High School', desc: "Join a winning community. Learn about our admission process, fee structure, and payment methods." },
+  'participate': { title: 'Get Involved | Nambale Shiners High School', desc: "Volunteer, mentor, and make an impact in our holistic academic community." },
+  'gallery': { title: 'Gallery | Nambale Shiners High School', desc: "View photos and videos of our vibrant school life, facilities, and events." },
+  'contact': { title: 'Contact Us | Nambale Shiners High School', desc: "Get in touch with Nambale Shiners High School. Find our location, phone number, and email." },
+  'donate': { title: 'Donate | Nambale Shiners High School', desc: "Support Nambale Shiners High School by making a donation to empower the next generation." },
+};
+
+function updateSEO(path) {
+  const meta = seoMetadata[path] || seoMetadata['home'];
+  document.title = meta.title;
+  let descTag = document.querySelector('meta[name="description"]');
+  if (descTag) {
+    descTag.content = meta.desc;
+  }
+}
+
 function handleRoute() {
-  const hash = window.location.hash.replace('#', '') || 'home';
-  const renderFn = routes[hash] || routes['home'];
+  const path = window.location.pathname.replace(/^\/+|\/+$/g, '') || 'home';
+  const renderFn = routes[path] || routes['home'];
 
   if (heroSliderInterval) {
     clearInterval(heroSliderInterval);
@@ -168,9 +187,10 @@ function handleRoute() {
 
   setTimeout(() => {
     // Update active nav link
-    navLinks.forEach(link => {
+    const navLinksAll = document.querySelectorAll('.nav-link, .nav-link-footer');
+    navLinksAll.forEach(link => {
       link.classList.remove('active');
-      if (link.dataset.path === hash || (hash === '' && link.dataset.path === 'home')) {
+      if (link.dataset.path === path || (path === 'home' && link.dataset.path === 'home')) {
         link.classList.add('active');
       }
     });
@@ -178,14 +198,17 @@ function handleRoute() {
     // Render new content
     appContent.innerHTML = renderFn();
 
+    // Update SEO
+    updateSEO(path);
+
     // Init counters if on home page
-    if (hash === 'home' || hash === '') {
+    if (path === 'home') {
       initCounters();
       initHeroSlider();
     }
     
     // Init academics sliders
-    if (hash === 'academics') {
+    if (path === 'academics') {
       initAcademicsSliders();
     }
 
@@ -210,8 +233,22 @@ allNavLinks.forEach(link => {
   });
 });
 
-// Listen to hash changes
-window.addEventListener('hashchange', handleRoute);
+// History API Interception
+document.body.addEventListener('click', e => {
+  if (e.target.matches('a') || e.target.closest('a')) {
+    const a = e.target.matches('a') ? e.target : e.target.closest('a');
+    const href = a.getAttribute('href');
+    
+    if (href && href.startsWith('/') && !a.getAttribute('target') && !href.endsWith('.pdf')) {
+      e.preventDefault();
+      history.pushState(null, '', href);
+      handleRoute();
+    }
+  }
+});
+
+// Listen to popstate (back/forward browser buttons)
+window.addEventListener('popstate', handleRoute);
 
 // Initial route handling
 window.addEventListener('load', handleRoute);
